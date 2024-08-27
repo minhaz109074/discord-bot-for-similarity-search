@@ -1,0 +1,7 @@
+# Ignore Python environment directories
+bot_env/
+__pycache__/
+*.pyc
+
+# Ignore other environment and config files
+.env
