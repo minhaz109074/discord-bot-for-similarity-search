@@ -8,6 +8,10 @@ This repository hosts a Python-based Discord bot designed for performing similar
 - **/summarise Command**: Provides concise summaries of lengthy texts.
 - **/search Command**: Finds similar images in a connected database to enhance visual query capabilities.
 
+## Vector Database Integration
+
+This bot uses **pgvector**, a PostgreSQL extension for vector similarity search, to efficiently manage and search image vectors within the database. The `pgvector` extension allows for fast and scalable similarity searches, making it ideal for handling large collections of images and other vectorized data.
+
 ## Installation
 
 1. Clone the repository:
